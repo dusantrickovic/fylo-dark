@@ -8,7 +8,7 @@ function Testimonials({data}) {
     let images = [profile1, profile2, profile3];
 
     return (
-        <div className=" relative flex md:flex-row xs:flex-col h-full bg-maincoldark px-10 pt-40 self-center justify-center pb-64">
+        <div className=" relative flex md:flex-row xs:flex-col h-full bg-maincoldark px-10 pt-40 self-center justify-center pb-24">
             <img src={quotesign} alt="quotes" className="relative left-12 bottom-8 z-10 h-10 w-10" />
             {data?.map(({review, name, image}, i) => 
                 <div className="bg-maincol p-4 mx-4 z-20 py-8 sm:mb-6 rounded-sm shadow-xl">

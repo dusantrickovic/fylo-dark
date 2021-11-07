@@ -12,17 +12,17 @@ function GetStarted() {
     useEffect(() => {
         let result = patt.test(email)
         if(result == true || email == '') {
-            document.getElementById("correct").style.display = "none";
+            document.getElementById("correct").style.visibility = "hidden";
             
         }
         else {
-            document.getElementById("correct").style.display = "block";
+            document.getElementById("correct").style.visibility = "visible";
         }
     },[email])
 
 
     return (
-        <div className="relative bg-maincol w-1/2 self-center m-auto text-center p-6 pt-12 flex flex-col shadow-xl rounded-sm">
+        <div className="relative top-32 bg-maincol w-1/2 self-center m-auto text-center p-6 pt-12 pb-10 flex flex-col shadow-xl rounded-sm">
             <h2 className="font-semibold text-3xl pb-4">Get early access today</h2>
             <p className=" m-auto w-10/12 pb-10 text-sm">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
             <div className="flex justify-center">

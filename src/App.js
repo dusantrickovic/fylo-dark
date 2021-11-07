@@ -8,6 +8,7 @@ import arrow from './imgs/icon-arrow.svg';
 import { useState, useEffect } from 'react';
 import Testimonials from './components/Testimonials';
 import GetStarted from './components/GetStarted';
+import Footer from './components/Footer';
 
 function App() {
   const [data, setData] = useState([]);
@@ -43,6 +44,7 @@ function App() {
           </section>
         <Testimonials data={data} />
         <GetStarted />
+        <Footer />
       </main>
     </div>
   );
