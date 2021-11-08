@@ -12,9 +12,7 @@ function Banner() {
                 <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
                 <button className="bg-gradient-to-r from-green-400 to-blue-400 rounded-full p-3 sm:w-1/2 self-center mt-5 font-semibold shadow-sm">Get Started</button>
             </div>
-            <div className="relative bg-maincol z-10 w-full bottom-52">
-                <img src={curve} alt="curve" className="w-full" />
-            </div>
+            
             
         </section>
     )

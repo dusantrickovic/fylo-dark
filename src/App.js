@@ -28,7 +28,7 @@ function App() {
         <main>
           <Banner />
           <Icons />
-          <section className="flex bg-maincoldark pt-32 justify-center w-full">
+          <section className="flex bg-maincoldark relative -top-36 justify-center w-full">
               <img src={productiveillustration} className="w-1/3 h-1/3" />
               <div className="flex flex-col ml-10 mt-14 w-1/3">
                   <h1 className="font-bold text-3xl w-2/3">Stay productive, wherever you are</h1>

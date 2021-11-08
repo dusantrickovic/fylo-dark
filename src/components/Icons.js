@@ -2,11 +2,15 @@ import accessanywhere from '../imgs/icon-access-anywhere.svg'
 import securityicon from '../imgs/icon-security.svg'
 import collabicon from '../imgs/icon-collaboration.svg'
 import anyfile from '../imgs/icon-any-file.svg'
+import curve from '../imgs/bg-curvy-desktop.svg'
 
 function Icons() {
     return (
-        <div className="bg-maincoldark h-1/2">
-            <section className=" grid grid-cols-2 z-30 relative h-1/2 self-center my-auto w-2/3 mx-auto text-gray-300 mt-20 md:mt-0">
+        <div className="bg-maincoldark h-1/5 relative bottom-60">
+            <div className="relative bg-maincol z-10 w-full bottom-0">
+                <img src={curve} alt="curve" className="w-full" />
+            </div>
+            <section className=" grid grid-cols-2 z-30 relative h-1/2 xl:-top-40 self-center my-auto w-2/3 mx-auto text-gray-300 mt-20 md:mt-0">
                 <div className="flex flex-col justify-center items-center text-center w-10/12 p-5 self-center mx-auto">
                     <img src={accessanywhere} alt="access anywhere" className="h-16" />
                     <div>

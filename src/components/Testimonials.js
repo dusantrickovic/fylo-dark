@@ -9,13 +9,13 @@ function Testimonials({data}) {
 
     return (
         <div className=" relative flex flex-col md:flex-row xl:flex-row h-full bg-maincoldark px-10 pt-40 self-center justify-center pb-24">
-            <img src={quotesign} alt="quotes" className="relative left-12 bottom-8 z-10 h-10 w-10" />
+            <img src={quotesign} alt="quotes" className="relative left-2 top-2 md:relative md:bottom-8 md:-top-8 md:left-12 bottom-0 z-10 h-10 w-10" />
             {data?.map(({review, name, image}, i) => 
                 <div className="bg-maincol p-4 mx-4 z-20 py-8 mb-6 md:mb-0 rounded-sm shadow-xl">
-                    <p className="pt-8 px-3 text-lg">{review}</p>
+                    <p className="pt-0 md:pt-8 px-3 text-sm md:text-lg">{review}</p>
                     <div className="flex mt-6 px-2 text-sm -mb-4">
                         <img src={images[i]} alt="profile" className="w-1/12 h-1/12 rounded-full self-center" />
-                        <div className="self-center -mt-5 text-sm ml-2">
+                        <div className="self-center -mt-5 text-xs md:text-sm ml-2">
                             <p className=" pt-8 font-bold">{name}</p>
                             <p className="pb-3 text-gray-300">Founder &amp; CEO, Huddle</p>
                         </div>
