@@ -5,15 +5,16 @@ function GetStarted() {
 
     const patt = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/
 
+
+
     const checkEmail = () => {
-        setEmail(document.getElementById("email").value)
+        setEmail(document.getElementById("email").value);
     }
     
     useEffect(() => {
         let result = patt.test(email)
-        if(result == true || email == '') {
-            document.getElementById("correct").style.visibility = "hidden";
-            
+        if(result === true || email === '') {
+            document.getElementById("correct").style.visibility = "hidden";            
         }
         else {
             document.getElementById("correct").style.visibility = "visible";
