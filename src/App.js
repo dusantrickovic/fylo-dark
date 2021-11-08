@@ -28,10 +28,10 @@ function App() {
         <main>
           <Banner />
           <Icons />
-          <section className="flex bg-maincoldark relative -top-64 xl:-mt-12 md:mt-20 md:-mb-16 md:-top-40 justify-center w-full">
-              <img src={productiveillustration} className="w-1/3 h-1/3" />
-              <div className="flex flex-col ml-10 mt-14 w-1/3">
-                  <h1 className="font-bold text-3xl w-2/3">Stay productive, wherever you are</h1>
+          <section className="flex flex-col md:flex-row bg-maincoldark relative -top-64 xl:-mt-12 mt-24 md:mt-20 -mb-48 md:-mb-16 md:-top-40 justify-center items-center w-full">
+              <img src={productiveillustration} className="w-2/3 h-2/3 md:w-1/3 md:h-1/3 self-center" />
+              <div className="flex flex-col ml-0 md:ml-10 mt-14 w-2/3 md:w-1/3">
+                  <h1 className="font-bold text-xl text-center md:text-left md:text-3xl w-full md:w-2/3">Stay productive, wherever you are</h1>
                   <p className="mt-4">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs. </p> <br /> 
                   <p className="-mt-3"> Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
                 <br />
